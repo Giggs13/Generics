@@ -1,14 +1,19 @@
 package ua.giggs13.generics;
 
-public class Box {
+public class Box<T> {
 
-    private Object object;
+    private T t;
 
-    public void set(Object object) {
-        this.object = object;
+    public void set(T t) {
+        this.t = t;
     }
 
-    public Object get() {
-        return object;
+    public T get() {
+        return t;
+    }
+
+    public <U extends TestClassForMultipleBounds & Interface1 & Interface2> void inspect(U u) {
+        System.out.println("T: " + t.getClass().getName());
+        System.out.println("U: " + u.getClass().getName());
     }
 }

@@ -28,6 +28,9 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <mainClass>ua.giggs13.generics.Entry</mainClass>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
