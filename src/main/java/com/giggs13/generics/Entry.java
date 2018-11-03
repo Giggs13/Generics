@@ -8,7 +8,7 @@ The most commonly used type parameter names are:
     V - Value
     S,U,V etc. - 2nd, 3rd, 4th types
 */
-package ua.giggs13.generics;
+package com.giggs13.generics;
 
 public class Entry {
 

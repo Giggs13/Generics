@@ -1,4 +1,4 @@
-package ua.giggs13.generics;
+package com.giggs13.generics;
 
 public interface Interface2 {
 }

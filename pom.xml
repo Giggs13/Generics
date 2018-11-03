@@ -29,7 +29,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>ua.giggs13.generics.Entry</mainClass>
+                    <mainClass>com.giggs13.generics.Entry</mainClass>
                 </configuration>
             </plugin>
             <plugin>
@@ -68,9 +68,9 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <addClasspath>true</addClasspath>   
+                            <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>ua.giggs13.generics.Entry</mainClass>
+                            <mainClass>com.giggs13.generics.Entry</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
